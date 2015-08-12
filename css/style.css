@@ -2,21 +2,18 @@
  * Default font Stylings
  */
 body {
-	font-family: 'Lato', sans-serif;
 	color: #747784;
+	font-family: 'Lato', sans-serif;
 	font-weight: 300;
 }
-
 
 .text-muted {
 	color: #bcbbbb;
 }
 
-
 .text-thin {
 	font-weight: 100;
 }
-
 
 /*
  *Header related css
@@ -25,18 +22,15 @@ body {
 	width: 100%;
 }
 
-
 .title-super {
 	font-size: 60px;
 }
 
-
 .title-logo {
-	max-width: 120px;
-	margin-top: 20px;
 	float:left;
+	margin-top: 20px;
+	max-width: 120px;
 }
-
 
 .title-text {
 	float: right;
@@ -50,9 +44,11 @@ body {
 	.title-super {
 		font-size: 20px;
 	}
+
 	.title-logo {
 		max-width: 100px;
 	}
+
 	.col-xs-6 {
 		width: 100%;
 	}
@@ -63,12 +59,15 @@ body {
 	.title-super {
 		font-size: 30px;
 	}
+
 	.title-logo {
 		max-width: 140px;
 	}
+
 	.col-xs-6 {
 		width: 100%;
 	}
+
 	.img-responsive {
 		width: 100%;
 	}
