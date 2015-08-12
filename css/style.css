@@ -1,0 +1,89 @@
+/*
+ * Default font Stylings
+ */
+body {
+	font-family: 'Lato', sans-serif;
+	color: #747784;
+	font-weight: 300;
+}
+
+
+.text-muted {
+	color: #bcbbbb;
+}
+
+
+.text-thin {
+	font-weight: 100;
+}
+
+
+/*
+ *Header related css
+ */
+.svg {
+	width: 100%;
+}
+
+
+.title-super {
+	font-size: 60px;
+}
+
+
+.title-logo {
+	max-width: 120px;
+	margin-top: 20px;
+	float:left;
+}
+
+
+.title-text {
+	float: right;
+}
+
+
+/*
+ * Media Queries: ->420<->600<->992<-
+ */
+@media (max-width: 419px) {
+	.title-super {
+		font-size: 20px;
+	}
+	.title-logo {
+		max-width: 100px;
+	}
+	.col-xs-6 {
+		width: 100%;
+	}
+}
+
+
+@media (min-width: 420px) and (max-width: 599px) {
+	.title-super {
+		font-size: 30px;
+	}
+	.title-logo {
+		max-width: 140px;
+	}
+	.col-xs-6 {
+		width: 100%;
+	}
+	.img-responsive {
+		width: 100%;
+	}
+}
+
+
+@media (min-width: 600px) and (max-width: 991px) {
+	.title-super {
+		font-size: 50px;
+	}
+}
+
+
+@media (min-width: 992px) {
+	.img-responsive {
+		width: 100%;
+	}
+}
